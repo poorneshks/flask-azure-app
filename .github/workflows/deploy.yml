@@ -26,7 +26,7 @@ jobs:
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v2
       with:
-        app-name: 'myresumeapp123'  # ✅ Match your Azure App Service name
+        app-name: 'myresumeapp123'  # 🏆 Your Azure App Service name
         slot-name: 'production'
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
         package: '.'
